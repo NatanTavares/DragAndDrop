@@ -1,0 +1,69 @@
+html {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: #D1D1D2;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.frame {
+  border: 1px solid black;
+  margin: 12px 16px;
+  min-width: 282px;
+  min-height: 200px;
+  box-shadow: 0px 2px 2px -1px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.dropzone {
+  background-color: yellow;
+  min-width: auto;
+  min-height: 150px;
+  border-top: 1px solid black;
+}
+
+.card {
+  background-color: green;
+  border-bottom: 1px solid black;
+  min-height: 28px;
+  box-shadow: 0px 2px 2px -1px;
+  cursor: grab;
+}
+
+.highlight {
+  background-color: #AAAAAA;
+}
+
+.card, .dropzone {
+  transition: .4s;
+}
+
+.is-dragging {
+  opacity: 0.6;
+}
+
+.over {
+  background-color: greenyellow;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 75%;
+  position: fixed;
+}
+
+footer a {
+  font-size: 1.2em;
+  color: black;
+  font-weight: 800;
+  text-decoration: none;
+}
